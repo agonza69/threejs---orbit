@@ -1,0 +1,14 @@
+body{
+    margin:0;
+   /* height:100vh;*/
+}
+canvas{
+    display:block;
+}
+
+#hello{
+    position:absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+}
