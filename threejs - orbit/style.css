@@ -1,14 +1,70 @@
 body{
     margin:0;
    /* height:100vh;*/
+
 }
-canvas{
-    display:block;
-}
+
+/* repositioning text */
 
 #hello{
     position:absolute;
-    top: 15%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%, -15%);
+    color: greenyellow;
 }
+
+#browse{
+    position: absolute;
+    color: greenyellow;
+    font-size: 200%;
+    margin-top: 37%;
+    left: 35%;
+
+}
+
+#plantShops{
+
+    position: absolute;
+    color: azure;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40%;
+    left: 17%;
+
+
+}
+
+#semillasShop{
+
+    position: absolute;
+    color: azure;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40%;
+    left: 42%;
+
+}
+
+#flowerShop{
+
+    position: absolute;
+    color: azure;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+
+    margin-top: 40%;
+    left: 70%;
+
+}
+
+a:link{
+
+    color: azure;
+
+}
+a:hover {
+   
+    color: greenyellow;
+
+  }
